@@ -149,7 +149,13 @@ section {
 }
 
 /* Media Queries */
-@media (max-width: 305px) {
+@media (max-width: 325px) {
+  header,
+main,
+footer {
+  max-width: 325px;
+}
+
   div.container {
     padding: 0;
   }
@@ -163,7 +169,7 @@ section {
 
   .info--cta-container {
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
   }
 
   button {

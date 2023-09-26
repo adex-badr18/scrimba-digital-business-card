@@ -82,6 +82,10 @@ img.info--img {
   padding: 0 35px;
 }
 
+a {
+  text-decoration: none;
+}
+
 a.cta {
   width: 115px;
   padding: 9px 13px 9px 11px;
@@ -94,7 +98,7 @@ a.cta {
   text-align: center;
 }
 
-a>i {
+a.cta>i {
   margin-right: 6px;
 }
 
@@ -151,8 +155,12 @@ section {
   padding: 19.5px 0;
 }
 
-.footer--social-links>i {
-  font-size: 25px;
+/* .footer--social-links a {
+  width: 25px;
+} */
+
+.footer--social-links a>i {
+  font-size: 28px;
   color: #918E9B;
 }
 

@@ -96,6 +96,10 @@ button>i {
   margin-right: 6px;
 }
 
+button, i {
+  cursor: pointer;
+}
+
 .info--cta-email {
   background-color: #FFFFFF;
   color: #374151;

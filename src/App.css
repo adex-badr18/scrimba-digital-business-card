@@ -68,8 +68,33 @@ img.info--img {
 
 .info--cta-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0 35px;
-  border: 1px solid greenyellow;
+}
+
+button {
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+button > i {
+  margin-right: 10px;
+}
+
+.info--cta-email {
+  background-color: #FFFFFF;
+  color: #374151;
+  border: 1px solid #D1D5DB;
+}
+
+.info--cta-linkedin {
+  background-color: #297FE5;
+  color: #FFFFFF;
+  border: 1px solid #297FE5;
 }

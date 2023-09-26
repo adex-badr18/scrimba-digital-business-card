@@ -18,7 +18,7 @@ export default function Info() {
                     <i class="fa-solid fa-envelope"></i> Email
                 </button>
 
-                <button className="info--cta-email">
+                <button className="info--cta-linkedin">
                     <i class="fa-brands fa-linkedin"></i> LinkedIn
                 </button>
             </div>

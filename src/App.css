@@ -146,3 +146,15 @@ section {
   font-size: 25px;
   color: #918E9B;
 }
+
+/* Media Queries */
+@media (max-width: 305px) {
+  .info--cta-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

@@ -8,7 +8,7 @@ export default function Info() {
             </div>
 
             <div className="info--bio">
-                <h1 className="info--name">Badrudeen A. Abdul-hameed</h1>
+                <h1 className="info--name">Badrudeen A. A.</h1>
                 <p className="info--role">Frontend Developer</p>
                 <a href="#" className="info--website">badrudeen.website</a>
             </div>

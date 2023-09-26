@@ -28,6 +28,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: .8em 0 .2em 0;
+  margin-bottom: 20px;
 }
 
 img.info--img {
@@ -35,4 +36,30 @@ img.info--img {
   height: 317px;
   display: block;
   margin: 0 auto;
+}
+
+.info--bio {
+  text-align: center;
+}
+
+.info--name {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  color: #2B283A;
+}
+
+.info--role {
+  font-size: 13px;
+  line-height: 15.5px;
+  color: #F47D27;
+  margin-top: 6.2px;
+}
+
+.info--website {
+  font-size: 10.3px;
+  line-height: 15.4px;
+  color: #4A4E74;
+  margin-top: 9px;
+  text-decoration: none;
 }

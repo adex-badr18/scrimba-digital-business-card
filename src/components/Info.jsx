@@ -15,11 +15,11 @@ export default function Info() {
 
             <div className="info--cta-container">
                 <button className="info--cta-email">
-                    <i class="fa-solid fa-envelope"></i> Email
+                    <i className="fa-solid fa-envelope"></i> Email
                 </button>
 
                 <button className="info--cta-linkedin">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    <i className="fa-brands fa-linkedin"></i> LinkedIn
                 </button>
             </div>
         </header>

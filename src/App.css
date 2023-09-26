@@ -1,6 +1,7 @@
 div.container {
   background-color: #23252C;
   max-width: 550px;
+  width: 100%;
   margin: 0 auto;
   padding: 44px 0;
 }
@@ -25,6 +26,7 @@ main {
 
 main {
   padding: 25px 35px 31px;
+  margin-top: -1px;
 }
 
 /* Info Component */

@@ -15,8 +15,9 @@ function App() {
         <About />
         <Interests />
       </main>
-
+      
       <Footer />
+      
     </div>
   )
 }

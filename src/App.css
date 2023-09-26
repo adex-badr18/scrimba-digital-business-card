@@ -2,6 +2,7 @@ div.container {
   background-color: #23252C;
   max-width: 550px;
   margin: 0 auto;
+  padding: 44px 0;
 }
 
 header,

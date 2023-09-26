@@ -127,3 +127,22 @@ section {
   text-align: justify;
   word-spacing: 1.5px;
 }
+
+/* Footer Component */
+.footer--container {
+  background-color: #D5D4D8;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer--social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 19.5px 0;
+}
+
+.footer--social-links > i {
+  font-size: 25px;
+  color: #918E9B;
+}

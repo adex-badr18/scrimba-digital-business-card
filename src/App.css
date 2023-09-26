@@ -82,7 +82,7 @@ img.info--img {
   padding: 0 35px;
 }
 
-button {
+a.cta {
   width: 115px;
   padding: 9px 13px 9px 11px;
   font-size: 14px;
@@ -90,13 +90,15 @@ button {
   line-height: 16px;
   border-radius: 6px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  text-align: center;
 }
 
-button>i {
+a>i {
   margin-right: 6px;
 }
 
-button, i {
+a, i {
   cursor: pointer;
 }
 

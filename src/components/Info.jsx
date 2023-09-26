@@ -14,13 +14,13 @@ export default function Info() {
             </div>
 
             <div className="info--cta-container">
-                <button className="info--cta-email">
+                <a href="" className="info--cta-email cta">
                     <i className="fa-solid fa-envelope"></i> Email
-                </button>
+                </a>
 
-                <button className="info--cta-linkedin">
+                <a href="" className="info--cta-linkedin cta">
                     <i className="fa-brands fa-linkedin"></i> LinkedIn
-                </button>
+                </a>
             </div>
         </header>
     )

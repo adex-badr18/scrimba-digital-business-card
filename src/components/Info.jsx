@@ -14,11 +14,11 @@ export default function Info() {
             </div>
 
             <div className="info--cta-container">
-                <a href="mailto:adex.badr18@gmail.com" className="info--cta-email cta">
+                <a href="mailto:adex.badr18@gmail.com" target="_blank" className="info--cta-email cta">
                     <i className="fa-solid fa-envelope"></i> Email
                 </a>
 
-                <a href="https://www.linkedin.com/in/badruaa/" className="info--cta-linkedin cta">
+                <a href="https://www.linkedin.com/in/badruaa/" target="_blank" className="info--cta-linkedin cta">
                     <i className="fa-brands fa-linkedin"></i> LinkedIn
                 </a>
             </div>

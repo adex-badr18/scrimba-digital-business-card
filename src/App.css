@@ -18,9 +18,15 @@ img.info--img {
   border-radius: 10px 10px 0 0;
 }
 
-header {
+header, main {
   background-color: #F5F5F5;
 }
+
+main {
+  padding: 25px 35px 31px;
+}
+
+/* Info Component */
 
 .info--img-container {
   max-width: 317px;
@@ -84,7 +90,7 @@ button {
 }
 
 button > i {
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .info--cta-email {
@@ -97,4 +103,27 @@ button > i {
   background-color: #297FE5;
   color: #FFFFFF;
   border: 1px solid #297FE5;
+}
+
+/* Main */
+section {
+  margin-bottom: 24px;
+}
+
+.about--title,
+.interests--title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  color: #2B283A;
+  margin-bottom: 5px;
+}
+
+.about--description,
+.interests--description {
+  font-size: 12px;
+  line-height: 16px;
+  color: #4A4E74;
+  text-align: justify;
+  word-spacing: 1.5px;
 }

@@ -12,10 +12,19 @@ footer {
   margin: 0 auto;
 }
 
-header {
-  background-color: #F5F5F5;
+header,
+img.info--img {
+  border-radius: 10px 10px 0 0;
 }
 
-img {
-  max-width: 100%;
+header {
+  background-color: #F5F5F5;
+  padding-top: 1em;
+}
+
+img.info--img {
+  max-width: 90%;
+  height: 317px;
+  display: block;
+  margin: 0 auto;
 }

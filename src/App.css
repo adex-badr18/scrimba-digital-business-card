@@ -18,7 +18,8 @@ img.info--img {
   border-radius: 10px 10px 0 0;
 }
 
-header, main {
+header,
+main {
   background-color: #F5F5F5;
 }
 
@@ -89,7 +90,7 @@ button {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-button > i {
+button>i {
   margin-right: 6px;
 }
 
@@ -142,13 +143,24 @@ section {
   padding: 19.5px 0;
 }
 
-.footer--social-links > i {
+.footer--social-links>i {
   font-size: 25px;
   color: #918E9B;
 }
 
 /* Media Queries */
 @media (max-width: 305px) {
+  div.container {
+    padding: 0;
+  }
+
+  header,
+  .footer--container,
+  .info--img-container,
+  img.info--img {
+    border-radius: unset;
+  }
+
   .info--cta-container {
     flex-direction: column;
     gap: 10px;

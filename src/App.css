@@ -1,7 +1,18 @@
-img {
+div.container {
+  background-color: #23252C;
+  max-width: 550px;
+}
+
+header,
+main,
+footer {
   max-width: 317px;
 }
 
 header {
   background-color: #F5F5F5;
+}
+
+img {
+  max-width: 100%;
 }

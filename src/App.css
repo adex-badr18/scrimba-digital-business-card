@@ -19,7 +19,15 @@ img.info--img {
 
 header {
   background-color: #F5F5F5;
-  padding-top: 1em;
+}
+
+.info--img-container {
+  max-width: 317px;
+  height: 332px;
+  background-image: url('./assets/images/bg-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: .8em 0 .2em 0;
 }
 
 img.info--img {

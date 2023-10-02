@@ -1,4 +1,4 @@
-import dp from '../assets/images/dp-nobg.png';
+import dp from '../assets/images/dp-bg.png';
 
 export default function Info() {
     return (

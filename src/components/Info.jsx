@@ -10,7 +10,7 @@ export default function Info() {
             <div className="info--bio">
                 <h1 className="info--name">Badrudeen A. A.</h1>
                 <p className="info--role">Frontend Developer</p>
-                <a href="#" className="info--website">badrudeen.website</a>
+                <a href="https://adex-badr18.github.io/portfolio/" target='_blank' className="info--website">badrudeen.portfolio</a>
             </div>
 
             <div className="info--cta-container">
